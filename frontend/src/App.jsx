@@ -10,6 +10,7 @@ import MyAppointment from './pages/MyAppointment'
 import Appointment from './Appointment'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import ChatBot from './components/ChatBot'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -31,6 +32,7 @@ const App = () => {
 
       </Routes>
       <Footer />
+      <ChatBot />
     </div>
   )
 }
